@@ -81,7 +81,7 @@ ul.footer{
 }
 @media screen and (max-width: 767px) {
 	ul.footer{
-	display:inline;
+	display:hide;
 	top: 700px;
 	}
 
