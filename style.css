@@ -68,8 +68,21 @@ ul.footer{
 	top: 500px;
 	left:550px;
 }
-@media screen and (max-width: 400px){
-	ul{
-		top: 80px;
+@media screen and (max-width: 470px){
+	body{
+		background-image-size: 1365px 1000px 
+
 	}
+	ul.footer{
+	display:inline;
+	top: 800px;
+	left:400px;
+	}
+}
+@media screen and (max-width: 767px) {
+	ul.footer{
+	display:inline;
+	top: 700px;
+	}
+
 }
